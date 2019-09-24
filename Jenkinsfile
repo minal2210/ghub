@@ -7,6 +7,7 @@ node {
    def mvnHome
    stage('Preparation') { // for display purposesmy_ref_func "intelipath"
       my_ref_func "intelipath"
+      sayHello "Devops"
       // Get some code from a GitHub repository
       git 'https://github.com/minal2210/ghub.git'
       // Get the Maven tool.
